@@ -96,3 +96,51 @@ nav{
 }
 
 
+.speakers{
+    padding:  80px 40px;
+    text-align: center;
+}
+.speakers h2{
+    font-size:2.5rem;
+    margin-bottom: 40px;
+}
+
+.speaker-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.speaker-info {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: left;
+}
+.speaker-info img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.speaker-details {
+    padding: 20px;
+}
+
+.category {
+    color: royalblue;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.speaker-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.speaker-details p {
+    color: gray;
+    font-size: 0.9rem;
+}
