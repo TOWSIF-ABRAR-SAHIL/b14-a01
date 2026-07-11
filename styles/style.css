@@ -335,3 +335,55 @@ nav{
     color: gold;
     font-weight: bold;
 }
+
+footer {
+    background-color: rgb(5, 5, 60);
+    color: lightgray;
+    padding: 40px 60px;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.footer-top .logo img {
+    height: 45px;
+    width: auto;
+}
+
+.socials {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    align-items: center;
+}
+
+.socials li a img {
+    width: 35px;
+    height: 35px;
+    object-fit: contain;
+    background-color: white;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.socials li a:hover img {
+    opacity: 0.7;
+}
+
+footer hr {
+    border: none;
+    border-top: 1px solid gray;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+}
+
+.copyright {
+    text-align: center;
+    color: lightgray;
+    font-size: 0.9rem;
+}
