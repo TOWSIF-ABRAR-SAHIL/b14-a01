@@ -49,3 +49,50 @@ nav{
 .register-button:hover {
     background-color: darkblue;
 }
+
+/* hero / banner section */
+.hero {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.hero-content {
+    position: relative;
+    padding-top: 150px;
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 3.5rem;
+}
+
+.hero-content i {
+    font-style: italic;
+}
+
+.hero-content p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+.hero-content button {
+    margin-top: 20px;
+}
+
+
